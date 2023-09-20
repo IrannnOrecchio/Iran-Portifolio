@@ -1,0 +1,491 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+nav{
+    background-color: rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 80px;
+}
+#escrita-portifolio{
+
+    color: #23f8ff;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: 3px;
+    left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 3px rgba(82, 188, 196, 0.8);
+    
+}
+
+
+
+  
+
+.introdução {
+    position: absolute;
+    left: 8.8%;
+    top: 129px;
+  }
+  #welcome {
+    color: #23f8ff;
+    line-height: 59px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 7px;
+    overflow: hidden;
+    white-space: nowrap;
+    left: 2%;
+    
+    text-shadow: 1px 1px 3px rgba(82, 188, 196, 0.8);
+    z-index: 2;
+    position: absolute;
+    
+  }
+
+    /* aqui começa a estilização dos btn  do linkedin  e github */
+  .blocobtn{
+
+    
+    position: absolute;
+    top: 295px;
+    display: flex;
+    gap: 25px;
+    left: 7%;
+    
+              /* modificação dos dois botoes */
+  }
+  .btnlinks{
+    background-color: #4CAF50; /* Green */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: none;
+    color: whitesmoke;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+  }
+
+ 
+
+  #btnlinkedin{
+
+    background-color: rgb(75, 75, 218);
+    text-shadow: 1px 1px 2px rgba(82, 188, 196, 0.8);
+  }
+
+  #btngithub{
+    background-color: rgb(38, 37, 37);
+    text-shadow: 1px 1px 2px rgba(139, 188, 192, 0.8);
+    width: 150px;
+    height: 45.3px;
+  }
+
+  #btnlinkedin, #btngithub:hover{
+    cursor: pointer;
+  }
+  
+
+
+  .a{
+    text-decoration: none;
+
+  }
+
+     /* aqui termina a estilização dos icones do linkedin, wpp e github */
+
+  
+   /* começo dobloco da foto do meu rosto portifolio  */
+.picture{
+    position: absolute;
+    left: 68%;
+    top: 72px;
+}
+
+
+
+    /* fim do bloco foto do meu rosto portifolio  */
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 15px;
+    background-color: #23f8ff;
+}
+
+
+/* efeito constelação abaixo */
+
+
+/* 
+fim do efeito constelação */
+
+
+
+
+/* ------------------ segunda parte --------------- */
+
+
+
+#segunda-parte{
+    width: 1300px;
+    height: 700px;
+    position: relative;
+    top: 605px;
+    left: 2%;
+    background-color: rgb(0, 0, 0);
+  
+}
+
+
+
+.bloco-titulo-habilidades{
+
+    position: absolute;
+    display: flex;
+    top: -68px;
+    left: 37.4%;
+   
+}
+
+.bloco-titulo-habilidades,.titulohabilidades{
+    
+    color: #23f8ff;
+    
+    letter-spacing: 3px;
+    font-size: 35px;
+    font-weight: bold;
+   
+    text-shadow: 1px 1px 3px rgba(82, 188, 196, 0.8);
+  
+}
+
+
+
+
+.cards{
+
+    
+    width: 800px;
+    height: 560px;
+    position: relative;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 115px;
+ }
+
+ 
+/* inicio do bloco de  estilização dos cards parte de cima  */
+
+ .card{
+  width: 140px;
+  height: 155px;
+  position: relative;
+  margin-top: -38%;
+  
+    
+ }
+ .card:hover{
+  cursor: pointer;
+ }
+  /* fim do bloco estilização dos cards parte de cima */
+
+
+
+ .cardsabaixo{
+    
+    width: 800px;
+    height: 560px;
+    position: absolute;
+    margin-top: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+ }
+    
+ 
+/* inicio do bloco de estilização dos cards parte de baixo */
+
+ .card2{
+    width: 140px;
+    height: 155px; 
+
+ }
+ .card2:hover{
+  cursor: pointer;
+ }
+
+ 
+ /* fim do bloco de estilização dos cards parte de baixo */
+
+   
+        /* inicio bloco do javascript  */
+
+ #js{
+    background-color: black;
+    border: 3px solid yellow;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ }
+ 
+ #fotojs{
+       width: 80px;
+       height: 80px;
+ 
+ }
+             /* Fim do bloco JavaScript */
+ 
+ 
+             /* Bloco CSS */
+ #css{
+    background-color: rgb(189, 185, 228);
+    border: 3px solid rgb(25, 0, 255);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+ }
+ 
+ #fotocss{
+     width: 80px;
+     height: 80px;
+ 
+ }
+                /* Fim bloco CSS */
+ 
+ 
+          /* bloco reactJS */
+ #reactjs{
+          background-color: black;
+          border: 3px solid rgb(11, 245, 245);
+          border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+ }
+ 
+ #fotoreact{
+       width: 80px;
+       height: 80px;
+       
+ }
+             /* Fim do bloco ReactJS */
+ 
+                 /* bloco mysql */
+ 
+  #firebase{
+             background-color: rgb(255, 255, 255);
+             border: 3px solid rgba(76, 79, 241, 0.712);
+             border-radius: 25px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+          
+       }
+       
+   #fotofirebase{
+ 
+          width: 150px;
+          height: 138px;
+       
+       }
+
+                /* fim do bloco firebase */
+              
+ 
+ 
+ 
+ 
+                    /* bloco jquery */
+ 
+               
+ #jquery{
+          background-color: rgb(247, 232, 232);
+          border: 3px solid rgba(76, 79, 241, 0.712);
+          border-radius: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+ 
+ }
+ 
+ #fotojquery{
+ 
+     width: 80px;
+     height: 80px;
+ }        
+
+                    /* fim do bloco jquery */
+
+
+
+             /* Bloco photoshop */
+#photoshop{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgba(125, 127, 211, 0.712);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#fotoshop{
+
+width: 80px;
+height: 80px;
+ }
+
+/* } 
+                    fim do bloco photoshop */
+
+
+#js, #css, #reactjs, #firebase, #jquery, #photoshop:hover{
+    cursor: pointer;
+}
+
+
+#js, #css, #reactjs, #firebase, #jquery, #photoshop{
+    animation-name: pulse;
+    animation-duration: 10s; 
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite; 
+    animation-direction: alternate;
+  } 
+ 
+ 
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.12);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
+
+
+  #projetoprimeflix{
+    
+ 
+    width: 310px;
+    height: 180px;
+    border: whitesmoke 1px solid;
+    border-radius: 20px;
+    
+  }
+
+  #projetoprimeflix:hover{
+    cursor: pointer;
+  }
+
+
+
+  #projetoft{
+   
+    width: 310px;
+    height: 180px;
+ 
+    border: whitesmoke 0.5px solid;
+    border-radius: 20px;
+    
+
+  }
+
+  #projetoft:hover{
+    cursor: pointer;
+  }
+
+
+
+  #projetonetflix{
+   
+    width: 310px;
+    height: 180px;
+    
+    border: whitesmoke 0.5px solid;
+    border-radius: 20px;
+
+  }
+  #projetonetflix:hover{
+    cursor: pointer;
+  }
+
+  #projetoprimeflix,#projetoft,#projetonetflix{
+
+    margin-top: -38px;
+  }
+
+
+
+
+  .blocoprojetos{
+      background-color: rgba(23, 12, 12, 0);
+      margin-left: -38px;
+      height: 500px;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+
+      top: 200px ;
+      left: 2%;
+      gap: 85px;
+      
+
+
+  }
+
+
+  .textopprojetos{
+
+   
+  
+    position: absolute;
+    top: -188px;
+    left: 43.9%;
+  }
+
+
+
+  #tituloprojetos{
+    color: #23f8ff;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px 3px rgba(82, 188, 196, 0.8);
+
+    
+  }
